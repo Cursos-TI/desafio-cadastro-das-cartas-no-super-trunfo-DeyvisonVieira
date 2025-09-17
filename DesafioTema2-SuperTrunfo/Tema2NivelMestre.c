@@ -143,7 +143,7 @@ int main(void) {
 
     calcularAtributos(&c1);
 
-    /* Exibe Carta 1 (mesmo texto do original) */
+    /* Exibe Carta 1 */
     imprimirCabecalhoCarta(1);
     printf("Estado: %s\n", c1.estado);
     printf("Código: %s\n", c1.codigo);
@@ -171,7 +171,7 @@ int main(void) {
 
     calcularAtributos(&c2);
 
-    /* Exibe Carta 2 (inclui exatamente o cabeçalho que você citou) */
+    /* Exibe Carta 2 */
     imprimirCabecalhoCarta(2);
     printf("Estado: %s\n", c2.estado);
     printf("Código: %s\n", c2.codigo);
